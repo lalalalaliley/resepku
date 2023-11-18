@@ -1,0 +1,113 @@
+.navbar {
+    background-color: #547794;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.main-content {
+    max-width: 1200px;
+    margin-inline: auto;
+    padding: 2rem 4rem;
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.main-content .dashboard img:hover {
+    /* zoom 125% */
+    transform: scale(1.1);
+    transition: all 0.25s ease-in;
+}
+
+.main-content .dashboard h5 {
+    color: #000000;
+}
+
+.main-content .dashboard h3 {
+    color: #547794;
+    margin-bottom: 5px;
+}
+
+.main-content .dashboard .suka {
+    color: #9d9d9d;
+    margin-bottom: 3px;
+}
+
+.main-content .dashboard .btn {
+    background-color: #c5cccf;
+    color: #000000;
+    border-radius: 13px;
+    width: 90%;
+}
+
+.main-content .tambah_resep {
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.main-content .tambah_resep h5 {
+    color: #547794;
+}
+
+.main-content .tambah_resep [for="bahan_makanan"] {
+    color: #547794;
+}
+
+.main-content .tambah_resep [for="langkah_pembuatan"] {
+    color: #547794;
+}
+
+.main-footer {
+    padding: 2px;
+    color: rgb(0, 0, 0);
+    background-color: #aeadad;
+    text-align: center;
+    font-weight: 400;
+    position: relative;
+    left: 0;
+   bottom: 0;
+   width: 100%;
+}
+
+.tambah_resep button {
+    background-color: #547794;
+    width: 100%;
+    color: white;
+}
+
+.recipe-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.recipe-item {
+    width: 30%;
+    margin-bottom: 173px;
+}
+
+/* Media query for screens smaller than 768px (tablets) */
+@media (max-width: 768px) {
+    .main-content {
+        padding: 2rem 1rem; /* Adjust padding for smaller screens */
+    }
+
+    .recipe-item {
+        width: 48%; /* Adjust width for smaller screens */
+    }
+}
+
+/* Media query for screens smaller than 576px (mobile) */
+@media (max-width: 576px) {
+    .recipe-item {
+        width: 100%; /* Full width for mobile screens */
+    }
+}
+
+@media (max-width: 991px) {
+    .sidebar {
+        background-color: rgb(84, 119, 148);
+    }
+}
