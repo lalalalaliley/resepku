@@ -1,3 +1,3 @@
 # resepku
-Switch branches/tags Master
+Switch branches/tags master
 
