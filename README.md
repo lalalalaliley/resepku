@@ -34,7 +34,7 @@ Aplikasi website untuk berbagi resep makanan untuk test teknis fullstack Meta Ma
     php artisan key:generate
     ```
 
-5. ***Configurate Database:**
+5. **Configurate Database:**
     ```dotenv
     DB_CONNECTION=mysql
     DB_HOST=127.0.0.1
@@ -44,7 +44,7 @@ Aplikasi website untuk berbagi resep makanan untuk test teknis fullstack Meta Ma
     DB_PASSWORD=your_database_password
     ```
 
-6. ***Run Migrations:**
+6. **Run Migrations:**
     ```bash
     php artisan migrate
     ```
